@@ -1,0 +1,11 @@
+#configura o usuario do git
+git config --global user.name 'seu nome'
+
+#configurar o email do git
+git config --global user.email 'seu email'
+
+#clona um repositório do git
+git clone link
+
+#inicia um novo projeto
+git init
