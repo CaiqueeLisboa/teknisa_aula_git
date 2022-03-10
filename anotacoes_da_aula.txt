@@ -9,3 +9,48 @@ git clone link
 
 #inicia um novo projeto
 git init
+
+#ve o status do repositório no momento
+git status
+
+#adiciona todos os arquivos no repositório web
+git add . 
+
+#adiciona o arquivo no repositório web
+git add <file>
+
+#disponibiliza o arquivo para outras pessoas no git
+git commit -m 'message'
+
+#disponibiliza no github
+git push <name>
+
+#linka o repositório do github com o git
+git remote add <name> <url>
+
+#adiciona os arquivos do repositório online diferentes dos arquivos q vc tem armazenado
+git pull
+
+
+#copia um repositório, usado para manter uma versão fixa e uma outra versão que irá sofrer modificações
+git branch
+
+#cria uma nova branch
+git branch <nova_branch>
+
+#como deletar uma branch
+git branch -D <nome_branch>
+
+#confere o log dos commits no git
+git log
+
+#mostra os códigos do commit
+git show
+
+#te leva para outras branchs, incluindo branchs novas
+git checkout <branch>
+
+#Criar e mover para uma nova branch
+git checkout -B <nova_branch>
+
+
